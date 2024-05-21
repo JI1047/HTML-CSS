@@ -1,0 +1,58 @@
+<!doctype html>
+<!-- 3x3크기의 테이블 만들기 -->
+<!-- <table>=테이블 전체
+<tr>= 행
+td=테이블의 헤더셀을 정의
+td=데이터셀 -->
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>table tags</title>
+        <style media="screen">
+            th,td { border: 1px solid; width: 50px; height: 50px;}
+        </style>
+    </head>
+    <body>
+        <table> 
+            <caption>
+                Monthly Savings
+            </caption>
+            <thead>
+                <tr>
+                    <th>Month</th>
+                    <th>Savings</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>January</td>
+                    <td>$100</td>
+                </tr>
+                <tr>
+                    <td>Febuary</td>
+                    <td rowspan="2">$80</td>
+                        
+                
+                </tr>
+                <tr>
+                    <td>March</td>
+                       
+                
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Sum</td>
+                    
+                    
+                </tr>
+            </tfoot>
+            
+            
+
+        </table>
+      
+    </body>
+</html>
+
